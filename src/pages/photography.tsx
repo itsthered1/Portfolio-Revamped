@@ -8,7 +8,8 @@ export default function Photo() {
       "shutter": 0,
       "aperture": "f/0",
       "location": "Earth",
-      "description": "Example image description"
+      "description": "Example image description",
+      "size": "max-w-xl"
   });
 
   return (
@@ -43,7 +44,7 @@ export default function Photo() {
       
       <input type="checkbox" id="modal" className="modal-toggle" />
       <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md">
-        <div className="modal-box relative w-screen w-11/12 max-w-xl" >
+        <div className={`w-screen w-11/12 max-w-3xl modal-box relative`}>
           <img src={currentImage.path}/>
         </div>
         

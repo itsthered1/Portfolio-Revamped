@@ -15,7 +15,7 @@ export default function Header() {
       <div className="text-3xl">
         <Link href="/">claudio rojas</Link>
       </div>
-      <div>
+      <div className="h-[39px] flex items-center">
         <input type="checkbox" className="toggle" data-toggle-theme="light,night"/>
       </div>
     </nav>
